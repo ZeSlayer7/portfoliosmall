@@ -1,0 +1,305 @@
+
+body, html{
+font-family: 'Raleway', sans-serif;	
+margin: 0;
+padding: 0;
+}
+.mainimage{
+	width: 100%;
+}
+li, a, button{
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	text-decoration: none;
+}
+header{
+	position: absolute;
+}
+.portfolio{
+	color:black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	margin-left:80px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+
+}
+ul{
+	margin-left: 450px;
+}
+.nav{
+list-style: none;
+}
+.nav li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.Hire button{
+	padding: 9px 20px;
+	border: 2px solid blue;
+	background-color: white;
+	color:blue;
+	border-radius:20px;
+}
+
+.maintext{
+	position: absolute;
+	top: 45%;
+	left: 60%;
+}
+.maintext p{
+	font-size: 36px;
+}
+.maintext h2{
+	font-size: 48px;
+	font-weight: normal;
+}
+.P1{
+	font-size: 16px;
+}
+.Work{
+	position: absolute;
+	top: 110%;
+	left: 0;
+	color: white;
+	background-color: blue;
+	border-radius: 20px;
+	padding: 15px 32px;
+	border: none;
+	text-transform:uppercase;
+}
+h1{
+	text-align: center;
+	font-size: 32;
+	text-transform: uppercase;
+	margin-top: 60px;
+	font-weight: normal;
+}
+.holdingcontainer{
+	width: 100%;
+	display: flex;
+	padding: 0px;
+
+	padding-bottom: 100px;
+}
+.webdesign{
+	flex:1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.webdesign i{
+	font-size: 50px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-top: auto;
+	color: blue;
+
+}
+/*.webdesign i:hover{
+	color: white;
+}*/
+.mobileapp{
+	flex: 1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.mobileapp i{
+	font-size: 50px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-top: auto;
+	color: blue;
+}
+.branding{
+	flex:1;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.branding i{
+	font-size: 50px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-top: auto;
+	color: blue;
+}
+.webdesign:hover {
+	background-color:#0a48c4;
+	/*color: white;*/
+}
+.webdesign:hover *{
+	/*background-color:#0a48c4;*/
+	color: white;
+}
+
+.mobileapp:hover{
+	background-color:#0a48c4;
+}	
+	
+.mobileapp:hover *{
+	color: white;
+}
+.branding:hover{
+	background-color:#0a48c4;
+	
+}
+.branding:hover *{
+	
+	color: white;
+}
+.holdingcontainer img{
+	padding-left:43%;
+}
+.holdingcontainer h3{
+	text-align: center;
+}
+.flexp{
+	text-align: center;
+}
+.gallery-area{
+	background-image:url('../bg.png');
+	padding-top: 30px
+
+}
+.gallery-area h4 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.img-area{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 80px;
+	padding-top: 20px;
+}
+.single-img{
+	padding:0 10px 10px;
+	position: relative;
+}
+.textoverlay{
+	position: absolute;
+	top: 0;
+
+}
+.decoration{
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+	right:40px;
+}
+.line2{
+	position: relative;
+	top:60px;
+	right: 175px;
+}
+h5{
+	font-size: 34px;
+	margin-left:10%;
+	font-weight: normal;
+}
+.awesome{
+	margin-bottom: 50px;
+}
+.awesomep{
+	font-size: 16px;
+	margin-left: 10%
+}
+.button{
+	padding: 9px 20px;
+	border: 2px solid blue;
+	background-color: white;
+	color:blue;
+	border-radius:20px;
+	margin-left: 20%;
+
+}
+.feedback{
+	background-image: url('../bg.png');
+	padding-top: 5%;
+	padding-bottom: 10%;
+	margin-bottom: 7%
+}
+h6{
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom:50px;
+}
+.allen{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.feedback p{
+	text-align: center;
+	font-size: 17px;
+}
+#p{
+	color: gray;
+	font-size: 15px;
+}
+#p2{
+	text-align: center;
+	font-size: 17px;
+	margin-top: 50px;
+}
+
+.botnav{
+	list-style: none;
+	display: flex;
+	margin-left: 20%;
+}
+.botnav li{
+	display: inline-block;
+	padding: 0px 30px;
+}
+.botnav input{
+	border: 1px solid black;
+	border-radius: 16px;
+	margin-left: 50%;
+	padding: 10px 20px 10px 20px;
+}
+.social-menu ul{
+	display: flex;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 35%;
+}
+.social-menu ul li{
+	list-style:none;
+	margin: 0 15px;
+}
+.social-menu ul li .fa{
+	font-size:30px;
+	line-height:60px;
+	}
+.social-menu ul li a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color:#d4d6d9;
+	color: #87898c;
+	text-align: center;
+}
+.social-menu ul li a:hover{
+	background-color: #34bdeb;
+	color: white;
+}
+.social-menu ul li .fa:hover{
+	color: white;
+}
+.footer-bottom{
+	text-align: center;
+	color: gray;
+}
